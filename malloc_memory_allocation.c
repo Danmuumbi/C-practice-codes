@@ -16,7 +16,7 @@ int main()
         printf("my numbers to be added are:\n");
         for(i=0;i<n;++i)
         {
-        scanf("%d",ptr+i);
+        scanf("%d",ptr+i);/*"ptr+i because ptr contans the adress of the variable so if it was 1000(the addreess) ,it will iterate to1001 ad onwards"*/
         sum += *(ptr+i);
         }
     printf("sum = %d", sum);
