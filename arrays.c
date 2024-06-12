@@ -18,6 +18,8 @@ for (i = 0;i < 10;i++)
 {
 printf("%d",a[i]);
 }
+printf("\narray 0 is %d",a);
+
 return 0;
 }
 /*You can realise that changing the number of elements to be stored in our array it would be tyresome since you have to change for all for loops,this takes us to the advantage of using macro to define arrays*/
